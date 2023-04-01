@@ -26,7 +26,7 @@
       <nav class="navbar navbar-expand-md navbar-dark bg-opacity-100 py-3
         position-absolute d-block w-100 position-fixed">
         <div class="container">
-          <a class="navbar-brand m-0 mt-1 p-2" href="#">Design. by Enes</a>
+          <a class="navbar-brand p-2" href="#">Design. by Enes</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -34,7 +34,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-3">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -42,7 +42,7 @@
                 <a class="nav-link" href="#approach">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Latest</a>
+                <a class="nav-link" href="#future">Latest</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
@@ -77,12 +77,12 @@
 
       <!-- About Section -->
 
-      <section id="approach" class="generic dark-bg">
+      <section id="approach" class="generic live-bg">
         <div class="container">
           <h2 class="display-5 text-danger mb-5" id="approach">HOW WE APPROACH</h2>
           <div class="row">
             <div class="col">
-              <div class="card bg-light border-0 ratio-4x3">
+              <div class="card bg-light border-0 ratio-4x3 mb-5">
                 <img src="./assets/image/card-b1 (1).jpg" class="card-img-top
                   rounded-0">
                 <div class="card-body">
@@ -234,35 +234,113 @@
       <!-- Future Slide -->
 
       <section class="future-slide">
-        <div class="col">
-          <div class="slide">
-            <div id="carouselExampleInterval" class="carousel slide"
-              data-bs-ride="carousel">
-              <div class="carousel-inner" style="height: 100vh">
-                <div class="carousel-item active" data-bs-interval="4000">
-                  <img src="./assets/image/slide-bg1.jpg" class="d-block w-100
-                    img-fluid" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="4000">
-                  <img src="./assets/image/slide-bg2.jpg" class="d-block w-100
-                    img-fluid" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./assets/image/slide-bg3.jpg" data-bs-interval="4000"
-                    class="d-block w-100 h-50 img-fluid" alt="...">
+        <div class="slide">
+          <div
+            id="carouselExampleDark"
+            class="carousel carousel-dark slide"
+            data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-label="Slide 1"
+                aria-current="true"></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+                class=""></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+                class=""></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <svg
+                  class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+                  width="800"
+                  height="400"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  aria-label="Placeholder: First slide"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#f5f5f5"></rect>
+                  <text x="50%" y="50%" fill="#aaa" dy=".3em">First slide</text>
+                </svg>
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first
+                    slide.</p>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button"
-                data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button"
-                data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="carousel-item" data-bs-interval="4000">
+                <svg
+                  class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+                  width="800"
+                  height="400"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  aria-label="Placeholder: Second slide"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#eee"></rect>
+                  <text x="50%" y="50%" fill="#bbb" dy=".6em">Second slide</text>
+                </svg>
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second
+                    slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <svg
+                  class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+                  width="800"
+                  height="400"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  aria-label="Placeholder: Third slide"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#e5e5e5"></rect>
+                  <text x="50%" y="50%" fill="#999" dy=".3em">Third slide</text>
+                </svg>
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third
+                    slide.</p>
+                </div>
+              </div>
             </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </section>
