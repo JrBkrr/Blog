@@ -2,6 +2,17 @@ body {
     padding: 10px;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 5px;
+}
+
 /* Background */
 
 .dark-bg {
@@ -13,6 +24,13 @@ body {
 
 .live-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(../image/main-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.constrat-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(../image/text-bg1.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -88,8 +106,8 @@ nav {
 
 #hero {
     margin-bottom: 100px;
-    box-shadow: 0 0 30px #000,
-        0 0 50px #000;
+    box-shadow: 0 0 15px #000,
+                0 0 25px #000;
 }
 
 #hero .container {
@@ -103,7 +121,7 @@ nav {
 }
 
 .generic {
-    box-shadow: inset 0 0 30px #000;
+    box-shadow: inset 0 0 15px #000;
     padding: 125px 0;
 }
 
@@ -118,15 +136,24 @@ nav {
 }
 
 .generic-2 {
-    box-shadow: 0 0 30px #000,
-        0 0 50px #000;
+    box-shadow: 0 0 15px #000,
+                0 0 25px #000;
 }
 
 /* Components */
 
+.components {
+    transition: all .4s;
+}
+
+.components:hover {
+    transform: scale(1.03);
+    transition: all .4s;
+}
+
 .generic-3 {
     box-shadow: 0 0 15px #000,
-        0 0 30px #000;
+                0 0 25px #000;
 }
 
 section .container .row .scrollspy-example {
