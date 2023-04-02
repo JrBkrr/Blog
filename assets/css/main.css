@@ -109,6 +109,10 @@ nav {
 
 /* Future */
 
+#future {
+    margin-bottom: 100px;
+}
+
 #future img {
     max-height: 98vh;
 }
@@ -116,4 +120,15 @@ nav {
 .generic-2 {
     box-shadow: 0 0 30px #000,
         0 0 50px #000;
+}
+
+/* Components */
+
+.generic-3 {
+    box-shadow: 0 0 15px #000,
+        0 0 30px #000;
+}
+
+section .container .row .scrollspy-example {
+    max-height: 36vh;
 }
