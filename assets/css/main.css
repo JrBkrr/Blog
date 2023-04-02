@@ -89,7 +89,7 @@ nav {
 #hero {
     margin-bottom: 100px;
     box-shadow: 0 0 30px #000,
-                0 0 50px #000;
+        0 0 50px #000;
 }
 
 #hero .container {
@@ -115,5 +115,5 @@ nav {
 
 .generic-2 {
     box-shadow: 0 0 30px #000,
-                0 0 50px #000;
+        0 0 50px #000;
 }
