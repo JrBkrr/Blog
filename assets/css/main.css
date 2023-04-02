@@ -110,7 +110,7 @@ nav {
 /* Future */
 
 #future img {
-    height: 98vh;
+    max-height: 98vh;
 }
 
 .generic-2 {
