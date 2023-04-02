@@ -2,10 +2,6 @@ body {
     padding: 10px;
 }
 
-* {
-    transition: all .3s;
-}
-
 /* Background */
 
 .dark-bg {
@@ -84,48 +80,23 @@ nav {
     margin-right: 15px;
 }
 
-nav .container .navbar-brand {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 22px;
-    text-shadow: 0 0 15px white;
-    border-bottom: 1px solid #ddd;
-    transition: all .6s;
-}
-
-.navbar .container .navbar-brand {
-    margin-top: 14px;
-}
-
 .navbar-scroll .navbar-brand {
-    padding: 5px 10px;
-    border-bottom: 1px solid #ddd;
-    border-radius: 1.5rem;
-    transition: all .6s;
-    box-shadow: 6px 6px 15px black;
-    color: #000;
-    background-color: #fff;
+    visibility: hidden;
 }
-
-.navbar-scroll .navbar-brand:hover {
-    transform: scale(1.1);
-    transition: all .3s;
-    border-radius: 1rem;
-    border-bottom: 2px solid red;
-    box-shadow: 10px 10px 15px black;
-}
-
 
 /* Hero */
 
 #hero {
     margin-bottom: 100px;
     box-shadow: 0 0 30px #000,
-        0 0 50px #000;
+                0 0 50px #000;
 }
 
 #hero .container {
     height: 65vh;
 }
+
+/* Approach */
 
 #approach {
     margin-bottom: 100px;
@@ -133,7 +104,16 @@ nav .container .navbar-brand {
 
 .generic {
     box-shadow: inset 0 0 30px #000;
-    padding: 150px 0;
+    padding: 125px 0;
 }
 
-/* Approach */
+/* Future */
+
+#future img {
+    height: 98vh;
+}
+
+.generic-2 {
+    box-shadow: 0 0 30px #000,
+                0 0 50px #000;
+}
